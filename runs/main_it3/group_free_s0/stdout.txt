@@ -1,0 +1,4 @@
+arm=group_free params=11,010,048 poly layers=[0, 1, 2, 3, 4, 5] device=cuda
+step      0  val 5.5989  (15s) | L0: iters=3 unconv=0.000 q/h=0.000
+too many non-finite losses, stopping
+{"arm": "group_free", "seed": 0, "n_params": 11010048, "steps_done": 148, "final_val_loss": 5.59894027709961, "final_val_bpb": 8.077563372005086, "elapsed_s": 92.93619513511658, "tokens_per_s": 22565.503106201264, "nonfinite_steps": 21, "first_step_s": 22.6}

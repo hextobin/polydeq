@@ -1,0 +1,11 @@
+{
+  "arm": "slot_mlp_matched",
+  "seed": 0,
+  "n_params": 64848,
+  "steps_done": 60,
+  "final_val_loss": 3.622671961784363,
+  "final_val_bpb": 5.2264108740337925,
+  "elapsed_s": 0.24257111549377441,
+  "tokens_per_s": 253286.545988518,
+  "nonfinite_steps": 0
+}

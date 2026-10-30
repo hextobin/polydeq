@@ -1,0 +1,12 @@
+{
+  "arm": "gelu",
+  "seed": 1,
+  "n_params": 10844160,
+  "steps_done": 5000,
+  "final_val_loss": 1.0657136261463165,
+  "final_val_bpb": 1.5374997634490857,
+  "elapsed_s": 258.0331563949585,
+  "tokens_per_s": 317478.57966985117,
+  "nonfinite_steps": 0,
+  "first_step_s": 1.4
+}

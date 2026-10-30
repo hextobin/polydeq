@@ -1,0 +1,12 @@
+{
+  "arm": "group_free",
+  "seed": 1,
+  "n_params": 11010048,
+  "steps_done": 151,
+  "final_val_loss": 5.528790426254273,
+  "final_val_bpb": 7.976358530071417,
+  "elapsed_s": 186.24569535255432,
+  "tokens_per_s": 11524.046211844778,
+  "nonfinite_steps": 21,
+  "first_step_s": 18.4
+}

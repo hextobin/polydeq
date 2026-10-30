@@ -1,0 +1,5 @@
+arm=group_implicit params=10,931,712 poly layers=[0, 1, 2, 3, 4, 5] device=cuda
+step      0  val 5.5972  (9s) | L0: iters=4 unconv=0.000 q/h=0.046
+step    100  val 2.6355  (179s) | L0: iters=4 unconv=0.000 q/h=0.052
+step    200  val 2.4553  (207s) | L0: iters=4 unconv=0.000 q/h=0.056
+{"arm": "group_implicit", "seed": 0, "n_params": 10931712, "steps_done": 200, "final_val_loss": 2.455283725261688, "final_val_bpb": 3.5422256544104176, "elapsed_s": 206.7731192111969, "tokens_per_s": 15847.321027512744, "nonfinite_steps": 0}

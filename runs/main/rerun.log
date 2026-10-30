@@ -1,0 +1,15 @@
+03:24 phase 1: seed 0
+03:28 group_free s0 exit=0
+03:32 elem_implicit s0 exit=0
+03:48 group_implicit s0 exit=0
+runs/main/elem_implicit_s0: worst frac_unconverged 0.0000, res_max 2.1e-07 after step 2500 -> ok
+runs/main/group_implicit_s0: worst frac_unconverged 0.0000, res_max 3.9e-07 after step 2500 -> ok
+03:48 gate passed; phase 2: seeds 1, 2
+03:48 FINAL_RUNS_LAUNCHED touched
+03:51 group_free s1 exit=0
+03:55 group_free s2 exit=0
+03:56 elem_implicit s1 exit=0
+04:04 elem_implicit s2 exit=0
+04:16 group_implicit s1 exit=0
+04:35 group_implicit s2 exit=0
+04:35 all reruns done

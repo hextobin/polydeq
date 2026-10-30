@@ -1,0 +1,11 @@
+{
+  "arm": "gelu_matched",
+  "seed": 0,
+  "n_params": 125478,
+  "steps_done": 60,
+  "final_val_loss": 3.528945803642273,
+  "final_val_bpb": 5.091192610480625,
+  "elapsed_s": 0.2661707401275635,
+  "tokens_per_s": 230829.27887022673,
+  "nonfinite_steps": 0
+}

@@ -1,0 +1,13 @@
+arm=elem_implicit params=10,881,024 poly layers=[0, 1, 2, 3, 4, 5] device=cuda
+step      0  val 5.5859  (18s) | L0: iters=3 unconv=0.000 q/h=0.066
+step    500  val 1.9972  (82s) | L0: iters=3 unconv=0.007 q/h=0.123
+step   1000  val 1.7399  (149s) | L0: iters=3 unconv=0.597 q/h=0.194
+step   1500  val 1.6068  (216s) | L0: iters=3 unconv=0.950 q/h=0.245
+step   2000  val 1.4769  (284s) | L0: iters=3 unconv=0.999 q/h=0.275
+step   2500  val 1.4001  (351s) | L0: iters=3 unconv=1.000 q/h=0.297
+step   3000  val 1.3507  (419s) | L0: iters=3 unconv=1.000 q/h=0.309
+step   3500  val 1.3155  (486s) | L0: iters=3 unconv=1.000 q/h=0.315
+step   4000  val 1.2875  (550s) | L0: iters=3 unconv=1.000 q/h=0.317
+step   4500  val 1.2677  (605s) | L0: iters=3 unconv=1.000 q/h=0.320
+step   5000  val 1.2587  (675s) | L0: iters=3 unconv=1.000 q/h=0.319
+{"arm": "elem_implicit", "seed": 1, "n_params": 10881024, "steps_done": 5000, "final_val_loss": 1.2586582243442535, "final_val_bpb": 1.815859978435563, "elapsed_s": 674.6520268917084, "tokens_per_s": 121425.55974733531, "nonfinite_steps": 0, "first_step_s": 7.7}

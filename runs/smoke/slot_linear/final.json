@@ -1,0 +1,11 @@
+{
+  "arm": "slot_linear",
+  "seed": 0,
+  "n_params": 62720,
+  "steps_done": 60,
+  "final_val_loss": 3.658931314945221,
+  "final_val_bpb": 5.278722063024804,
+  "elapsed_s": 0.20412445068359375,
+  "tokens_per_s": 300992.8491870678,
+  "nonfinite_steps": 0
+}

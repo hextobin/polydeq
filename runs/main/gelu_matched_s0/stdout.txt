@@ -1,0 +1,13 @@
+arm=gelu_matched params=10,931,826 poly layers=[0, 1, 2, 3, 4, 5] device=cuda
+step      0  val 5.5476  (0s)
+step    500  val 1.6631  (28s)
+step   1000  val 1.3396  (56s)
+step   1500  val 1.2519  (84s)
+step   2000  val 1.1992  (114s)
+step   2500  val 1.1611  (145s)
+step   3000  val 1.1309  (176s)
+step   3500  val 1.1070  (208s)
+step   4000  val 1.0848  (236s)
+step   4500  val 1.0707  (249s)
+step   5000  val 1.0635  (273s)
+{"arm": "gelu_matched", "seed": 0, "n_params": 10931826, "steps_done": 5000, "final_val_loss": 1.0635032832622529, "final_val_bpb": 1.5343109127315828, "elapsed_s": 273.4137337207794, "tokens_per_s": 299619.184761435, "nonfinite_steps": 0, "first_step_s": 8.5}

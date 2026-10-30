@@ -1,0 +1,11 @@
+{
+  "arm": "slot_group",
+  "seed": 0,
+  "n_params": 63936,
+  "steps_done": 60,
+  "final_val_loss": 3.596323072910309,
+  "final_val_bpb": 5.188397462722261,
+  "elapsed_s": 0.8292112350463867,
+  "tokens_per_s": 74094.50982241334,
+  "nonfinite_steps": 0
+}

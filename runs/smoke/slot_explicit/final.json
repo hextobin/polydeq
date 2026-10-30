@@ -1,0 +1,11 @@
+{
+  "arm": "slot_explicit",
+  "seed": 0,
+  "n_params": 64864,
+  "steps_done": 60,
+  "final_val_loss": 3.562071442604065,
+  "final_val_bpb": 5.13898280553708,
+  "elapsed_s": 0.2976853847503662,
+  "tokens_per_s": 206392.39662881842,
+  "nonfinite_steps": 0
+}

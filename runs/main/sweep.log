@@ -1,0 +1,35 @@
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu --seed 0 --out runs/main/gelu_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm none --seed 0 --out runs/main/none_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu_matched --seed 0 --out runs/main/gelu_matched_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_s0 -> exit 0 (4.1 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm elem_explicit --seed 0 --out runs/main/elem_explicit_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/none_s0 -> exit 0 (4.3 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm elem_implicit --seed 0 --out runs/main/elem_implicit_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_matched_s0 -> exit 0 (4.8 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_explicit --seed 0 --out runs/main/group_explicit_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/elem_explicit_s0 -> exit 0 (9.8 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_implicit --seed 0 --out runs/main/group_implicit_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/group_explicit_s0 -> exit 0 (12.5 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_free --seed 0 --out runs/main/group_free_s0 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/group_free_s0 -> exit 0 (14.5 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu --seed 1 --out runs/main/gelu_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/elem_implicit_s0 -> exit 0 (15.4 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm none --seed 1 --out runs/main/none_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_s1 -> exit 0 (18.9 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu_matched --seed 1 --out runs/main/gelu_matched_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/none_s1 -> exit 0 (19.3 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm elem_explicit --seed 1 --out runs/main/elem_explicit_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_matched_s1 -> exit 0 (24.0 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm elem_implicit --seed 1 --out runs/main/elem_implicit_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/elem_explicit_s1 -> exit 0 (25.1 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_explicit --seed 1 --out runs/main/group_explicit_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/group_explicit_s1 -> exit 0 (33.3 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_implicit --seed 1 --out runs/main/group_implicit_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/elem_implicit_s1 -> exit 0 (35.5 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_free --seed 1 --out runs/main/group_free_s1 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/group_free_s1 -> exit 0 (37.4 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu --seed 2 --out runs/main/gelu_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_s2 -> exit 0 (42.2 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm none --seed 2 --out runs/main/none_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/none_s2 -> exit 0 (46.0 min)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu_matched --seed 2 --out runs/main/gelu_matched_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20

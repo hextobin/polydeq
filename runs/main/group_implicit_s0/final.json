@@ -1,0 +1,12 @@
+{
+  "arm": "group_implicit",
+  "seed": 0,
+  "n_params": 10931712,
+  "steps_done": 5000,
+  "final_val_loss": 1.2557308316230773,
+  "final_val_bpb": 1.8116366434739877,
+  "elapsed_s": 1370.4548063278198,
+  "tokens_per_s": 59775.776349391206,
+  "nonfinite_steps": 0,
+  "first_step_s": 38.6
+}

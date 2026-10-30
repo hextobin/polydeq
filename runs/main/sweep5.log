@@ -1,0 +1,19 @@
+skip runs/main/gelu_s0 (done)
+skip runs/main/none_s0 (done)
+skip runs/main/gelu_matched_s0 (done)
+skip runs/main/elem_explicit_s0 (done)
+skip runs/main/group_explicit_s0 (done)
+skip runs/main/gelu_s1 (done)
+skip runs/main/none_s1 (done)
+skip runs/main/gelu_matched_s1 (done)
+skip runs/main/elem_explicit_s1 (done)
+skip runs/main/group_explicit_s1 (done)
+skip runs/main/gelu_s2 (done)
+skip runs/main/none_s2 (done)
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm gelu_matched --seed 2 --out runs/main/gelu_matched_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm elem_explicit --seed 2 --out runs/main/elem_explicit_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+/root/polydeq/.venv/bin/python train.py --data data/enwik8 --arm group_explicit --seed 2 --out runs/main/group_explicit_s2 --steps 5000 --batch_size 64 --dtype bf16 --compile --eval_every 500 --eval_batches 20
+  runs/main/gelu_matched_s2 -> exit 0 (7.7 min)
+  runs/main/elem_explicit_s2 -> exit 0 (8.4 min)
+  runs/main/group_explicit_s2 -> exit 0 (9.8 min)
+sweep done
