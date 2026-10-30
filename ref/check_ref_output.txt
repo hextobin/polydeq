@@ -1,0 +1,18 @@
+[1] G=1,g=8,k=3: U=0 -> linear err 0e+00;  c=0 -> linear err 0e+00
+[1] G=4,g=2,k=2: U=0 -> linear err 0e+00;  c=0 -> linear err 0e+00
+[2] free,     global low-rank  G=1 g=8 k=3: Newton iters=3, residual=1.1e-15, IFT vs finite-diff worst rel err=2.2e-09
+[2] free,     grouped          G=4 g=2 k=2: Newton iters=3, residual=6.1e-15, IFT vs finite-diff worst rel err=1.9e-09
+[2] free,     elementwise      G=8 g=1 k=1: Newton iters=4, residual=3.5e-17, IFT vs finite-diff worst rel err=4.6e-10
+[3] monotone, global low-rank  G=1 g=8 k=3: Newton iters=10, residual=1.8e-15, IFT vs finite-diff worst rel err=7.7e-09
+[3] monotone, grouped          G=4 g=2 k=2: Newton iters=11, residual=3.2e-13, IFT vs finite-diff worst rel err=1.5e-09
+[3] monotone, elementwise      G=8 g=1 k=1: Newton iters=12, residual=3.6e-15, IFT vs finite-diff worst rel err=5.3e-09
+[4] max|y_K - y*| after K Newton steps (K=0..5), unit-scale inputs
+    free  G=1 k=3 sU=0.5: 1e+01 1e+01 6e+01 3e+01 3e+01 1e+01  (y* not converged)
+    mono  G=1 k=3 sU=1  : 7e+01 2e+01 5e+00 1e+00 2e-01 8e-03
+    mono  G=4 k=2 sU=1  : 2e+02 5e+01 1e+01 4e+00 8e-01 9e-02
+[5] fraction of tokens NOT converged after 50 damped Newton steps (G=1, g=8, k=3)
+    |x|~0.5:  sU=0.25: cubic 0.11 quad 0.00 mono 0.00   sU=1: cubic 0.51 quad 0.18 mono 0.00   sU=4: cubic 0.61 quad 0.45 mono 0.00
+    |x|~1.0:  sU=0.25: cubic 0.48 quad 0.05 mono 0.00   sU=1: cubic 0.61 quad 0.36 mono 0.00   sU=4: cubic 0.34 quad 0.56 mono 0.00
+    |x|~2.0:  sU=0.25: cubic 0.62 quad 0.23 mono 0.00   sU=1: cubic 0.36 quad 0.47 mono 0.00   sU=4: cubic 0.12 quad 0.58 mono 0.00
+
+ALL CHECKS PASSED
