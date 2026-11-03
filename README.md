@@ -74,7 +74,9 @@ start y = Wx, three Newton steps stopped converging partway through training.
 5. **It is also slow.** `group_implicit` runs at about 1/5 of GELU's throughput,
    even with torch.compile and a fused small-matrix solver.
 
-Predictions written down before any run, against the outcome:
+## Predictions vs outcome
+
+Written down before any run:
 
 | outcome | predicted odds | happened? |
 |---|---|---|
@@ -82,6 +84,14 @@ Predictions written down before any run, against the outcome:
 | group_implicit beats group_explicit (the solve helps) | ~30% | no |
 | elem_implicit within noise of gelu | ~40% | no |
 | free form trains without diverging | ~30% | no |
+
+## Next, if revisited
+
+- Start the implicit layer in a strongly nonlinear regime (larger α, β), so it
+  can't settle near linear, and check whether it stays there.
+- Compare at equal wall-clock as well as equal steps, since the implicit layer
+  costs 5× per step.
+- Try the polynomial only in some layers, keeping GELU elsewhere.
 
 ## Prior art
 
